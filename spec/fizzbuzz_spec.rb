@@ -4,11 +4,11 @@ describe "FizzBuzz" do
   
   #let "fizzbuzz" = FizzBuzz.new
 
-  it "can know if a number is divisble bu three" do
+  it "can know if a number is divisble by three" do
     expect(FizzBuzz.is_divisible_by?(3,3)).to eq true
   end
   
-  it "can know if a number is not divisble bu three" do
+  it "can know if a number is not divisble by three" do
     expect(FizzBuzz.is_divisible_by?(1,3)).to eq false
   end
  
@@ -40,7 +40,7 @@ describe "FizzBuzz" do
     expect(FizzBuzz.play(15)).to eq "FizzBuzz"
   end
 
-  it "returns the number if not divisble by three, five or fifteen" do
+  it "returns the number if it is not divisble by three, five or fifteen" do
     expect(FizzBuzz.play(1)).to eq 1
   end
 
