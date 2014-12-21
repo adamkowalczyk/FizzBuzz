@@ -1,5 +1,8 @@
 class FizzBuzz
 
+  # test using a single 'divisible_by?' method, rather than a method for each divisor
+  # more DRY..
+
   # def self.is_divisible_by_three?(num)
   #   num % 3 == 0
   # end
@@ -25,4 +28,4 @@ class FizzBuzz
 
 end
 
-puts (1..100).to_a.map {|n| FizzBuzz.play(n)}
+# puts (1..100).to_a.map {|n| FizzBuzz.play(n)}
